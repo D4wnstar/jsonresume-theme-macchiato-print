@@ -235,6 +235,7 @@ ul.two-column li {
 }
 
 .summary {
+  font-size: 80%;
   margin: 5px 0 5px;
 }
 
@@ -291,24 +292,33 @@ ul.two-column li {
     margin: 0;
   }
 
-  .page {
+  #resume {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 36px 0 30px;
-    box-shadow: none;
   }
 
-  .page .resume-header,
-  .page .resume-content {
+  #resume .resume-header,
+  #resume .resume-content {
     padding: 0 22px 0 34px;
   }
 
-  .container {
-    page-break-inside: avoid;
+  .left-column {
+    width: 30%;
+    margin-right: 2%;
   }
 
-  .work-container .item {
+  .right-column {
+    width: 65%;
+  }
+
+  .resume-header {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .section {
     page-break-inside: avoid;
   }
 
