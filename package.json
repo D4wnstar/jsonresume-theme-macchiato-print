@@ -9,13 +9,6 @@
     "pretty": "prettier --write --ignore-path='*lock.json' '{src/**/*.{js,ts,json},./*{js,ts,json}}' ",
     "lint": "eslint *.js"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run pretty && npm run lint",
-      "pre-push": "npm run prepublishOnly"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/D4wnstar/jsonresume-theme-macchiato-print"
